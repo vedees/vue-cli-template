@@ -1,0 +1,33 @@
+.items__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item__wrapper {
+  cursor: pointer;
+  width: 100%;
+  max-width: 47%;
+  padding: 40px 0;
+  @media screen and (max-width: $desktopWidth) {
+    text-align: center;
+    max-width: unset
+  }
+  &.item__wrapper--full {
+    max-width: 100%;
+  }
+  img {
+    transition: all .25s ease-out;
+  }
+  &:hover {
+    img {
+      transform: scale(1.04);
+    }
+  }
+  p {
+    text-align: center;
+    padding: 16px 0;
+    font-size: 26px;
+  }
+}
