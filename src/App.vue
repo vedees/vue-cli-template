@@ -1,16 +1,9 @@
 <template>
   <div class="wrapper">
 
-    <!-- <header></header> -->
+    <header></header>
 
-    <div class="wrapper-content">
-      <section>
-        <div class="container">
-          <h1>HELLO</h1>
-          <img alt="Vue logo" src="./assets/logo.png">
-        </div>
-      </section>
-    </div>
+    <router-view></router-view>
 
     <!-- <footer></footer> -->
 
