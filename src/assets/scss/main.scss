@@ -70,6 +70,9 @@ section, .section {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  &.content-wrapper--fixed-nav {
+    margin-top: 80px;
+  }
 }
 
 .container {

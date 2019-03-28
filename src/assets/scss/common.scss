@@ -1,3 +1,12 @@
+// обновленные стандартные стили
+
+// Заголовок
+@import "common/title";
+// Контролы
 @import "common/controls";
-@import "common/items";
+// Линки
+@import "common/link";
+// Кнопки
 @import "common/buttons";
+// Меню
+@import "common/navbar";
