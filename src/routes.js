@@ -11,6 +11,7 @@ import Example from '@/pages/Example'
 
 // Routering
 export default new Router({
+  // mode: 'history',
   routes: [
     {
       path: '/',
